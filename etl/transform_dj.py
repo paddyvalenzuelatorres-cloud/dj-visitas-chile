@@ -1,5 +1,5 @@
 import pandas as pd
-from pathlib import Path   # <--- Agregar esta línea
+from pathlib import Path   # Para manejar rutas de forma segura
 from extract import extract
 
 def transform():
@@ -19,14 +19,17 @@ def transform():
     # Unir mediana al dataframe principal
     df = df.merge(median_days, on="dj_name", how="left")
 
+    # Convertir columnas de días a enteros
+    df["days_since_last_visit"] = df["days_since_last_visit"].fillna(0).astype(int)
+    df["median_days_between_visits"] = df["median_days_between_visits"].astype(int)
+
     return df
 
 if __name__ == "__main__":
     df_transformed = transform()
     print(df_transformed)
 
-    # Guardar CSV
+    # Guardar CSV en data/
     output_path = Path(__file__).parent.parent / "data/transformed.csv"
     df_transformed.to_csv(output_path, index=False)
     print(f"Transformed data saved to {output_path}")
-
