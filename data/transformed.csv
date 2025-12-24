@@ -1,0 +1,7 @@
+dj_name,event_date,city,venue,source,confidence,days_since_last_visit,median_days_between_visits
+Charlotte de Witte,2019-04-12,Santiago,Club La Feria,Instagram,3,,900.0
+Charlotte de Witte,2022-11-05,Santiago,Fauna Primavera,Festival,3,1303.0,900.0
+Charlotte de Witte,2024-03-16,Santiago,Club La Feria,Instagram,3,497.0,900.0
+Solomun,2018-03-23,Santiago,Espacio Riesco,Flyer,2,,1208.0
+Solomun,2023-10-14,Santiago,Club La Feria,Instagram,3,2031.0,1208.0
+Solomun,2024-11-02,Santiago,Club La Feria,Instagram,3,385.0,1208.0
