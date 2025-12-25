@@ -27,8 +27,6 @@ dj-visitas-chile/
 │ │ └─ dj_visits_chile_raw.csv
 │ └─ processed/
 │ └─ dj_visits_chile_processed.csv
-│
-├─ venv/ # Entorno virtual (no subir al repo)
 ├─ README.md
 └─ .gitignore
 
