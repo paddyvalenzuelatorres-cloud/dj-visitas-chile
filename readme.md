@@ -9,7 +9,6 @@ Proyecto en Python para construir un dataset histórico de visitas de DJs (house
 - Crear un dataset histórico de visitas de DJs a Chile.  
 - Calcular cada cuánto tiempo regresan los DJs al país.  
 - Predecir la próxima visita de cada DJ.  
-- Publicar el proyecto en GitHub y LinkedIn como demostración de habilidades de ETL y análisis de datos.
 
 ---
 
