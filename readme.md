@@ -33,9 +33,6 @@ dj-visitas-chile/
 ├─ README.md
 └─ .gitignore
 
-yaml
-Copiar código
-
 ---
 
 ## **Tecnologías**
