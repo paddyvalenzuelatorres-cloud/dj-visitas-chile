@@ -81,6 +81,3 @@ Contribuciones
 Proyecto individual para demostración de habilidades de ETL, análisis y predicción.
 
 Cualquier mejora es bienvenida mediante Pull Requests.
-
-Licencia
-Este proyecto está bajo la licencia MIT.
